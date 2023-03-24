@@ -1,4 +1,7 @@
 image: python
+variables:
+  USERNAME: aftab_gazali
+  
 stages:          # List of stages for jobs, and their order of execution
   - build
   - test
