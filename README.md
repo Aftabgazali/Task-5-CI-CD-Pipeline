@@ -31,7 +31,14 @@ Run your pipeline: Once your pipeline is defined, you can run it manually or con
 
                                                                     Fixing Unit Test Job 
      
-     
+A Docker image build is the process of creating a Docker image from a Dockerfile. A Docker image is a lightweight, standalone, executable package that contains everything needed to run an application, including the code, runtime, libraries, and dependencies.
+
+The Docker image build process starts with a Dockerfile, which is a text file that contains a set of instructions for building the image. The Dockerfile typically includes instructions for installing dependencies, copying files into the image, and setting configuration options.
+
+When you run the docker build command, Docker reads the instructions in the Dockerfile and executes each instruction to create layers in the image. Each layer represents a step in the build process and contains only the changes made by that step. This allows Docker to reuse layers from previous builds, which can significantly speed up the build process.
+
+Once the build process is complete, Docker creates an image that includes all of the layers. The resulting image can then be used to run containers, which are instances of the image that can be started and stopped as needed.
+
 !![image](https://user-images.githubusercontent.com/52740449/228616772-aa9d5706-34be-47e6-a73b-8326cfe2374c.png)
                                                                        
                                                                        Docker Image Build
