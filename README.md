@@ -17,20 +17,21 @@ Configure your pipeline: You may need to configure your pipeline to define varia
 
 Run your pipeline: Once your pipeline is defined, you can run it manually or configure it to run automatically whenever a trigger condition is met.
 
-![Deploy job](https://user-images.githubusercontent.com/52740449/228614659-a169230c-6e1f-4481-bf85-80dfbab41852.png)
-                                                                    
+
+ ![image](https://user-images.githubusercontent.com/52740449/228616367-cea1a558-8511-4e23-8969-fa42f62cb886.png)
+ 
                                                                   Build Job
                                                                   
-![Unit Test Job Failed](https://user-images.githubusercontent.com/52740449/228615589-407882f8-0e4c-42d8-9fcd-6a75b3828ad5.png)
+![image](https://user-images.githubusercontent.com/52740449/228616478-f384df80-5aae-4b7c-951a-c59f559b6e21.png)
 
                                                                     Failed Unit Test Job
                                                                    
                                                                          
-![Unit Test Job Succeeded](https://user-images.githubusercontent.com/52740449/228615871-1b8b60c7-9b37-4d3b-9801-74a4b9344450.png)
+![image](https://user-images.githubusercontent.com/52740449/228616641-6722377c-c404-4604-876d-6a6ba86cbc6a.png)
 
                                                                     Fixing Unit Test Job 
      
      
-![docker image build](https://user-images.githubusercontent.com/52740449/228616034-40933f90-5cbc-4e99-b8d6-6047de742e86.png)
-
-                                                                        Docker Image Build
+!![image](https://user-images.githubusercontent.com/52740449/228616772-aa9d5706-34be-47e6-a73b-8326cfe2374c.png)
+                                                                       
+                                                                       Docker Image Build
